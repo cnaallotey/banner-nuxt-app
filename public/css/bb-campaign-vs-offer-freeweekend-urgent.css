@@ -1,0 +1,225 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent {
+    background: #100D1C;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #0EFAA5;
+    color: #100D1C;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-logo {
+    width: 122px;
+    height: 40px;
+    position: absolute;
+    display: none;
+}
+
+
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core {
+    gap: 60px;
+    margin-right: 30px;
+
+}
+
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-prelude {
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal; 
+width: auto;
+ 
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-prelude b {
+    background: var(--Gradient, linear-gradient(90deg, #0EFAA5 1.04%, #FAFF00 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-style: normal;
+    font-weight: 00;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan {
+    gap: 60px;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-title {
+    color: white;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-title b {
+    color: #0EFAA5;
+    font-weight: 700;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    order: 1;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    order: 1;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+padding: 6px 14px;
+border-radius: 4px;
+background: rgba(43, 246, 163, 0.20);
+color: white;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.4px; 
+order: 2;
+}
+
+#bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    height: 44px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+border: 2px solid #0EFAA5;
+background: rgba(14, 250, 165, 0.40);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;   
+}
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core, #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan {
+        gap: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1234px) {
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-prelude {
+        font-size: 22px;
+        max-width: 115px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-title-container {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 16px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core, #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan {
+        gap: 40px;
+    
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        padding: 0px;
+        background-color: transparent;
+        background: transparent;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core {
+        gap: 0px;
+        flex-direction: column;
+    }
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-prelude {
+        max-width: fit-content;
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vs-offer-freeweekend-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 12px;
+    }
+}

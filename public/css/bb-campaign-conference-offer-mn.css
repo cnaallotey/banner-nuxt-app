@@ -1,0 +1,295 @@
+/* MasteringNuxt */
+
+
+#bb-banner.bb-campaign-conference-offer-mn {
+    background: #01191F;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#bb-banner.bb-campaign-conference-offer-mn:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    color: var(--Background, #01191F);
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-logo {
+    width: 168px;
+    height: 27px;
+    background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/MASTERING_NUXT\/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    transform: translateX(-60px);
+    display: none;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core {
+    gap: 40px;
+
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-title-container {
+    max-width: max-content;
+    order: 3;
+
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-interlude {
+
+    order: 2;
+}
+
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-interlude {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--White, #FFF);
+    text-align: center;
+ 
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-prelude span {
+    background: linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%);
+    background-clip: text;
+    font-weight: 700 !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan {
+    gap: 40px;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-title {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-title span, #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-subtitle span {
+    color: var(--White, #36FDAB);
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-subtitle {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+    background: rgba(54, 253, 171, 0.20);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+#bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 40px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #131620;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 50px;
+background: var(--VS-Cyber-Monday, linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%));
+}
+
+@media screen and (min-width: 1440px) {
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-interlude{
+        display: inline-flex;
+        align-items: center;
+        gap: 20px;  
+    }
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-interlude::after {
+        display: block;
+        content: " ";
+        width: 100px;
+        height: 110px;
+        background-image: url('http://vueschool.io/images/banners/assets/MASTERING_NUXT/roc.png');
+            background-repeat: no-repeat; 
+            background-size: contain;
+            background-position: center;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core, #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan {
+        gap: 20px;
+    }
+    #bb-banner.bb-campaign-conference-offer-mn .bb-logo {
+        width: 32px;
+        height: 40px;
+        background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/MASTERING_NUXT\/mark.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        transform: translateX(-40px);
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-prelude {
+        font-size: 14px;
+        max-width: 45px;
+     
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-interlude {
+        font-size: 14px;
+        max-width: 81px;
+     
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-title, #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-subtitle {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 12px;
+        padding: 0px;
+        background-color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core, #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan {
+        gap: 1px;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core {
+        flex-direction: column;
+        gap: 2px;
+
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 240px;
+        justify-content: center;
+        gap: 2px 4px;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-prelude {
+        font-size: 12px;
+        max-width: fit-content;
+     
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-slogan .bb-interlude {
+        font-size: 12px;
+        max-width: fit-content;
+     
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-title, #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-subtitle {
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+        color: var(--White, var(--White, #FFF));
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    #bb-banner.bb-campaign-conference-offer-mn .bb-logo {
+        transform: translateX(-20px);
+    }
+}

@@ -1,0 +1,140 @@
+/* Summer  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+#bb-banner.bb-campaign-summer-urgent {
+  background: linear-gradient(180deg, #3EAD93 0%, #9BAA4E 100%);
+  font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-summer-urgent:hover .bb-core .bb-button-wrapper .bb-button {
+  background: white;
+  transition: background-color 0.5s, color 0.5s; 
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-title-container{
+  order: 1;
+}
+
+
+#bb-banner.bb-campaign-summer-urgent .bb-logo {
+  width: 102px;
+  height: 34px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#bb-banner.bb-campaign-summer-urgent .bb-core{
+  display: flex;
+}
+
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-title {
+  color: #FCFF15;
+  font-weight: 500;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-subtitle {
+  font-weight: bold;
+  font-weight: 500;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-button-wrapper {
+  order: 2;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-button-wrapper .bb-button {
+  color: #032E3B;
+  border-radius: 50px;
+  background: linear-gradient(360deg, #24D276 0%, #28FE8C 100%);
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: Rubik, sans-serif;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown {
+  color: #FCFF15;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown-container {
+  order: 3;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  color: #FCFF15;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 4px;
+  order: 1;
+  text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown-wrapper {
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-button-wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-summer-urgent .bb-core {
+    transform: translate(40px);
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown {
+    font-size: 16px;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #bb-banner.bb-campaign-summer-urgent .bb-core {
+    gap: 20px;
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper  {
+    flex-direction: column;
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    padding: 5px;
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-logo {
+    width: 60px;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-button-wrapper {
+    display: none;
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-core {
+    gap: 0px;
+  }
+
+  #bb-banner.bb-campaign-summer-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper  {
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+  }
+  
+}

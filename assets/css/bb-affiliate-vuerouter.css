@@ -1,0 +1,27 @@
+
+/* Vue Router and Pinia */
+
+html.has-bb-banner .theme,
+html.has-bb-banner .theme .nav-bar,
+html.has-bb-banner .theme .sidebar,
+html.has-bb-banner .theme .page {
+  margin-top: 72px;
+}
+
+/* Vite Press */
+
+html.has-bb-banner {
+  scroll-padding-top: 134px;
+  overflow: auto;
+}
+
+html.has-bb-banner .VPSidebar,
+html.has-bb-banner .VPDoc.has-sidebar.has-aside .aside-container {
+  top: 72px;
+}
+
+@media (min-width: 960px) {
+  html.has-bb-banner .VPNav {
+    top: 72px;
+  }
+}

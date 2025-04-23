@@ -1,0 +1,240 @@
+/* Cert  */
+
+#bb-banner.bb-campaign-cert {
+  background: #000;
+  font-family: Inter, Roboto, sans-serif;
+}
+
+#bb-banner.bb-campaign-cert * {
+  font-family: Inter, Roboto, sans-serif;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-button-wrapper .bb-button {
+  background: linear-gradient(90deg, #E967C3 0%, #5D82F6 100%);
+  border-radius: 6px;
+  color: #000;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-cert:hover .bb-core .bb-button-wrapper .bb-button {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-prelude {
+  color: #979FAD;
+  font-size: 8px;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-slogan {
+  width: 240px;
+  flex-direction: column;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-title {
+  font-size: 12px;
+  color: #39E198;
+  font-weight: bold;
+
+  background: linear-gradient(90deg, #E768C4 0%, #6082F6 47.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-subtitle {
+  color: #FFF;
+  font-size: 10px;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-subtitle span {
+  background: linear-gradient(90deg, #E768C4 0%, #6082F6 47.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-cert .bb-logo {
+  background-image: url("https://certification.vuejs.org/images/vue-badge.svg");
+  width: 43px;
+  height: 43px;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-countdown-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-countdown {
+  background: linear-gradient(90deg, #E768C4 0%, #6082F6 47.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-cert .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  background: linear-gradient(90deg, #E768C4 0%, #6082F6 47.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-cert .bb-core .bb-slogan {
+    width: 340px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-prelude {
+    font-size: 11px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-title {
+    font-size: 20px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-subtitle {
+    font-size: 15px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-countdown {
+    font-size: 24px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-countdown-wrapper {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-cert .bb-core {
+    gap: 90px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-prelude {
+    font-size: 14px;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-slogan {
+    width: 690px;
+    gap: 90px;
+    flex-direction: row;
+  }
+
+  #bb-banner.bb-campaign-cert .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+    font-size: 12px;
+  }
+}
+
+/* Customization for Closing Phase */
+
+#bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown-wrapper {
+  flex-direction: row-reverse;
+}
+
+#bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown {
+  background: linear-gradient(90deg, #E768C4 0%, #6082F6 47.54%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown {
+    padding-top: 3px;
+  }
+
+  #bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  #bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+    font-size: 10px;
+    color: #FFF;
+    padding: 6px 10px;
+    border-radius: 4px;
+    letter-spacing: normal;
+
+    background: linear-gradient(90deg, #E768C4 0%, #6082F6 47.54%);
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: #FFF;
+    text-fill-color: #FFF;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown-wrapper {
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+}
+
+/* Customization for affiliates */
+
+html.has-bb-banner.bb-vuejs #bb-banner.bb-campaign-cert .bb-core .bb-title,
+html.has-bb-banner.bb-vuejs #bb-banner.bb-campaign-cert .bb-core .bb-countdown {
+  background: linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+
+html.has-bb-banner.bb-vuejs #bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  background: linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+html.has-bb-banner.bb-vuejs #bb-banner.bb-campaign-cert .bb-core .bb-button-wrapper .bb-button {
+  background: linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%);
+}
+
+@media (min-width: 768px) {
+  html.has-bb-banner.bb-vuejs #bb-banner.bb-campaign-cert.bb-campaign-cert-closing .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+    background: linear-gradient(90deg, rgba(66, 184, 131, 0.20) 0%, rgba(14, 187, 210, 0.20) 100%);
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: #FFF;
+    text-fill-color: #FFF;
+  }
+
+  html.has-bb-banner.bb-vuejs #bb-banner.bb-campaign-cert .bb-core .bb-countdown {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  html.has-bb-banner.bb-vueuse #bb-banner.bb-campaign-cert * {
+    font-family: 'Inter var', Inter, Roboto, sans-serif;
+  }
+}

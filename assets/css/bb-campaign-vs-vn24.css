@@ -1,0 +1,167 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-vs-vn24 {
+    background: linear-gradient(90deg, #212435 0%, #255A47 100%);
+    font-family: 'Rubik', sans-serif;
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-vn-image {
+    display: none;
+}
+#bb-banner.bb-campaign-vs-vn24:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vs-vn24 .bb-logo {
+    position: relative;
+    width: 40.245px;
+    height: 34px; 
+    transform: translateX(-30px);
+    
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core {
+    gap: 40px;
+
+}
+
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-slogan .bb-prelude {
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+width: 175px;
+text-align: left;
+ 
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-slogan .bb-prelude b {
+    color: #0BD88F;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-title {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-title b {
+    color: #0BD88F;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container .bb-countdown {
+padding: 6px 14px;
+border-radius: 4px;
+background: rgba(43, 246, 163, 0.20);
+color: white;
+}
+
+#bb-banner.bb-campaign-vs-vn24 .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+height: 40px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px; 
+font-size: 14px;
+font-weight: 500;
+border-radius: 50px;
+background: #0BD88F; 
+}
+
+@media screen and (max-width: 1440px) {
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-logo {
+        display: none;
+        
+    }
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-slogan .bb-prelude {
+        font-size: 12px;
+        width: auto;
+    }
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-title {
+    font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-slogan .bb-prelude {
+
+    font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    #bb-banner.bb-campaign-vs-vn24 .bb-core .bb-countdown-container .bb-countdown {
+        padding: 0px;
+        background: transparent;
+        }
+
+        #bb-banner.bb-campaign-vs-vn24 .bb-core {
+            gap: 2px;
+        
+        }
+}

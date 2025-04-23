@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment {
+    background: var(--Dark-Background, #1A1A1C);
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #F921BA;
+    transition: background-color 0.5s, color 0.5s; 
+    color: #1A1A1C;
+  }
+
+  #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core, #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan {
+    display: flex;
+    gap: 40px;
+  }
+
+  #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core {
+   margin-right: 40px;
+  }
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-logo {
+    width: 257.524px;
+height: 40px;
+    background-image: url('http://vueschool.io/images/banners/assets/CERT_ANGULAR/logo.svg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    margin-right: 60px;
+    
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-slogan .bb-prelude {
+    order: 1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   color: #fff;
+   text-transform: uppercase;
+   max-width: 180px;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-slogan .bb-prelude span {
+    background: var(--Gradient, linear-gradient(90deg, #FF0021 1.04%, #F921BA 50.03%, #8600FF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container {
+    order: 5;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-button-wrapper {
+    order: 4;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--Body-Text, #E8E6E6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: rgba(255, 255, 255);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-title span {
+    background: var(--Gradient, linear-gradient(90deg, #FF0021 1.04%, #F921BA 50.03%, #8600FF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+
+ #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 40px;
+    padding: 6px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+border: 2px solid var(--Primery, #F921BA);
+background: var(--primary-30, rgba(249, 33, 186, 0.30));
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container {
+    order: 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+background: linear-gradient(90deg, rgba(255, 0, 33, 0.20) 0%, rgba(134, 0, 255, 0.20) 99.98%);
+color: white;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+@media screen and (max-width: 1650px) {
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 15px;
+        padding: 0px;
+        background-color: transparent;
+        background: transparent;
+    }
+}
+
+
+@media screen and (max-width: 1550px) {
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core {
+        gap: 20px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-prelude {
+        font-size: 15px;
+        max-width: 124px;
+    }
+    
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 15px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 15px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container {
+        max-width: 350px;
+    }
+
+    
+    }
+
+@media screen and (max-width: 1300px) {
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core,  #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan  {
+        gap: 20px;
+    }
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-addendum {
+        max-width: 50px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-logo {
+        margin-right: 20px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-prelude {
+        font-size: 13px;
+        max-width: 80px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container {
+        max-width: 320px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 15px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-logo {
+        width: 39.394px;
+height: 40px;
+flex-shrink: 0;
+        background-image: url('http://vueschool.io/images/banners/assets/CERT_ANGULAR/mark.svg') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        margin-right: 40px;
+        
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 12px;
+        padding: 0px;
+        background-color: transparent;
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core {
+        margin-right: 30px;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-logo {
+        margin-right: 30px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-prelude {
+        max-width: fit-content;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container {
+        max-width: 250px;
+    } 
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-title,  #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 11px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-addendum {
+        max-width: 50px;
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+        color: var(--White, var(--White, #FFF));
+        text-align: center;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        color: var(--White, var(--White, #FFF));
+        text-align: center;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    #bb-banner.bb-campaign-angular-free-weekend-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 4px;
+    }
+}

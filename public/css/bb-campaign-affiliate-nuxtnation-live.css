@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live {
+    background: #020420;
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #ffffff;
+    color: var(--Background, #020420); 
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-logo {
+    width: 144px;
+height: 28px;
+    position: relative;
+    margin-right: 60px;
+    background-image: url('https://staging.vueschool.io/images/banners/assets/NUXTNATION24/nn-logo.svg');
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-button-wrapper {
+    order: 2;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container {
+    order: 1;
+}
+
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container .bb-subtitle  {
+color: var(--Body-Text, white);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: #00DC82;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container .bb-subtitle span {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #00DC82;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container .bb-title span, #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container .bb-subtitle span, #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-interlude span {
+    color: #00DC82;
+
+ }
+
+
+ #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan .bb-title-container {
+    width: auto;
+ }
+
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan {
+    gap: 40px;
+}
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+background: var(--Main-Color, #00DC82);
+color: var(--Background, var(--Background, #020420));
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container::before{
+
+    content: "";
+    height: 72px;
+    width: 174px;
+    background-image: url('https://staging.vueschool.io/images/banners/assets/NUXTNATION24/speakers-nn.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container  .bb-countdown-wrapper  .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container  .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+padding: 10px 15px;
+align-items: center;
+gap: 1px;
+border-radius: 8px;
+background: rgba(247, 223, 30, 0.20);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+leading-trim: both;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container .bb-addendum {
+    font-size: 12px !important;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-logo {
+        width: 23px;
+    height: 28px;
+        margin-right: 60px;
+        background-image: url('https://staging.vueschool.io/images/banners/assets/NUXTNATION24/nn-logo-mark.svg');
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core {
+        gap: 40px;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 20px !important;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container .bb-title {
+        font-size: 14px !important;
+        max-width: 230px !important;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container .bb-subtitle {
+        font-size: 20px !important;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan {
+        gap: 30px;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core {
+        margin-right: 30px;
+    }
+
+     #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container .bb-subtitle {
+        font-size: 16px !important;
+        max-width: 40px;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-slogan {
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-logo {
+       position: relative;
+       margin-right: 30px;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container .bb-subtitle span {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container .bb-title {
+        max-width: 140px !important;
+        font-size: 12px !important;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-title-container {
+        gap: 5px;
+    }
+
+    #bb-banner.bb-campaign-affiliate-nuxtnation-live .bb-core .bb-countdown-container::before {
+        display: none;
+    }
+}

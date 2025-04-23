@@ -1,0 +1,271 @@
+/* MN */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates {
+    background: #01191F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #ffffff;
+    color: var(--Background, #01191F); 
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+  #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core, #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan {
+    display: flex;
+    gap: 40px;
+  }
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-logo {
+    width: 169px;
+height: 22px; 
+overflow: hidden;
+background-image: url('https://vueschool.io/images/banners/assets/MASTERING_NUXT/logo.svg');
+    background-repeat: no-repeat; 
+    position: relative;
+    margin-right: 80px;
+    
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-slogan .bb-prelude {
+    order: 1;
+    font-size: 22px;
+font-style: normal;
+font-weight: 700 !important;
+line-height: normal;
+background: linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-slogan .bb-interlude {
+    order: 2;
+    width: 100px;
+height: 110px;
+background-image: url('http://vueschool.io/images/banners/assets/MASTERING_NUXT/roc.png');
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    transform: translateY(8px) translateX(12px);
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container {
+    order: 5;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-button-wrapper {
+    order: 4;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-title span {
+    color: var(--White, #36FDAB);
+ }
+
+ #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    font-size: 16px;
+    color: white;
+ }
+
+ #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+height: 40px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: var(--VS-Cyber-Monday, linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%));
+color: var(--Background, #131620);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core, #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan {
+        gap: 20px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-logo {
+        margin-right: 60px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-addendum {
+        width: 50px;
+    }
+}
+
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container {
+    order: 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+    background: rgba(54, 253, 171, 0.20);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-logo {
+        width: 36px;
+    height: 23px; 
+    overflow: hidden;
+    background-image: url('https://vueschool.io/images/banners/assets/MASTERING_NUXT/mark.svg');
+        background-repeat: no-repeat; 
+        position: relative;
+        margin-right: 40px;
+        
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-slogan .bb-prelude {
+        font-size: 16px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-slogan .bb-interlude {
+       display: none;
+    }
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container {
+        max-width: 238px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-title,  #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-subtitle  {
+        font-size: 14px;
+    }
+
+
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        background-color: transparent;
+        padding: 0px;
+        font-size: 12px;
+        letter-spacing: 1.4px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-masteringnuxt-affiliates {
+        justify-items: start;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core {
+        gap: 2px;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-logo {
+        margin-right: 20px;
+        position: absolute;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container {
+        max-width: fit-content;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-prelude {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 8px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core {
+        margin-right: 0px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-title {
+        max-width: 260px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-title,  #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-slogan .bb-title-container .bb-subtitle  {
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-masteringnuxt-affiliates .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+}

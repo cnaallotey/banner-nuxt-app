@@ -1,0 +1,260 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-vs-freeweekend-live {
+    background: #131A24;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#bb-banner.bb-campaign-vs-freeweekend-live:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #FF1A7A;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-logo {
+    display: none;
+    
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core {
+    gap: 60px;
+
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container {
+    width: auto;
+}
+
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-prelude {
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal; 
+width: auto;
+ 
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-prelude b {
+    background: var(--Gradient, linear-gradient(90deg, #FF1A7A 1.04%, #FFB800 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-style: normal;
+    font-weight: 00;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan {
+    gap: 60px;
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-title {
+    color: white;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-title b {
+    background: var(--Gradient, linear-gradient(90deg, #FF1A7A 1.04%, #FFB800 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 10px;
+text-transform: uppercase;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+background: rgba(255, 255, 255, 0.20);
+color: var(--White, #FFF);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    height: 44px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+border: 2px solid #FF1A7A;
+background: rgba(255, 26, 122, 0.40);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;   
+}
+
+#bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-side-image {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container {
+        width: 250px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-title {
+        gap: 15px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core {
+        gap: 15px;
+    
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container .bb-addendum {
+        display: block;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-prelude {
+        width: 103px;
+            font-size: 20px;
+            font-weight: 900;
+            text-align: left;
+            line-height: 18px;
+            }
+}
+@media screen and (max-width: 1024px) {
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan {
+        gap: 20px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-logo {
+        display: none;
+        
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-prelude {
+        font-size: 12px;
+        width: auto;
+        transform: translateX(0px);
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-title {
+    font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-prelude {
+width: 103px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 18px;
+    transform: translateY(6px);
+    top: 1px;
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        transform: translateX(50px);
+    }
+
+    #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-countdown-container .bb-countdown {
+        padding: 0px;
+        background: transparent;
+        font-size: 12px;
+        }
+
+        #bb-banner.bb-campaign-vs-freeweekend-live .bb-core {
+            gap: 2px;
+        
+        }
+
+        #bb-banner.bb-campaign-vs-freeweekend-live .bb-side-image {
+            display: none;
+        }
+
+        #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container {
+            width: 220px;
+        }
+
+        #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+            display: none;
+        }
+
+        #bb-banner.bb-campaign-vs-freeweekend-live .bb-core .bb-slogan .bb-title-container .bb-title {
+            font-size: 14px;
+        }
+
+}

@@ -1,0 +1,266 @@
+/* Vue School */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-sponsor-fen-live {
+    background: black;
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-side-image {
+   display: none;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #4901BD;
+    color: white;
+    transition: background-color 0.5s, color 0.5s; 
+    border-width: 2px;
+    border-color: white;
+  }
+
+  #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-slogan .bb-prelude {
+    width: 261px;
+    height: 44px; 
+    overflow: hidden;
+    background-image: url('https://staging.vueschool.io/images/banners/assets/FEN24/logo-sponsor.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 20px;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-logo {
+    width: 335px;
+height: 34px; 
+overflow: hidden;
+    background-repeat: no-repeat; 
+    position: relative;
+    margin-right: 20px;
+    
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core {
+    gap:20px;
+    margin-top: 0px;
+
+}
+
+
+
+
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-slogan {
+    gap: 20px;
+    width: fit-content;
+    order: 1;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-title {
+    color: var(--White, var(--gray, #D5D5D5));
+    text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 22px; /* 91.667% */
+text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-title span {
+    color: #FFEE04;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-title-container {
+    display: flex;
+    flex-direction: row !important;
+    gap: 40px;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-subtitle  {
+    color: var(--Main, #FFEE04);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    order: 3;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container {
+    order: 2;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container  .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container  .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container  .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+padding: 8px 14px;
+align-items: center;
+gap: 2px;
+border-radius: 4px;
+background: var(--Purple, #4901BD);
+color: var(--White, #FFF);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+#bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 42px;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-color: #FFEE04;
+    gap: 10px;
+    border-radius: 10px;
+background: var(--Angular---Gradient, #FFEE04);
+    color: var(--Background, #000);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+@media screen and (min-width: 1600px) {
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-slogan .bb-interlude {
+        display: block;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1800px) {
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-subtitle  {
+        width: 173px;
+       }
+}
+
+@media screen and (max-width: 1450px) {
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-title {
+        font-size: 15px;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-subtitle {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-slogan {
+        gap: 10px;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-slogan .bb-prelude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-logo {
+        width: 120px;
+    height: 34px; 
+    overflow: hidden;
+        background-repeat: no-repeat; 
+        position: relative;
+        
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container  .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container  .bb-countdown-wrapper .bb-countdown {
+        color: var(--White, #FFF);
+text-align: center;
+leading-trim: both;
+background: transparent;padding: 0px;
+text-edge: cap;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 160% */
+letter-spacing: 1px;
+text-transform: uppercase; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-button-wrapper .bb-button {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-title {
+        text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+line-height: 14px; /* 93.333% */
+text-transform: uppercase; 
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-subtitle{
+        text-align: center;
+        width: auto;
+        font-size: 13px;
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-title-container {
+        display: flex;
+        flex-direction: column !important;
+        gap: 0px;
+    }
+
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-logo {
+       max-width: 65px;
+    max-height: 53px; 
+    overflow: hidden;
+        background-repeat: no-repeat; 
+        position: absolute;
+        
+    }
+
+    #bb-banner.bb-campaign-sponsor-fen-live .bb-core .bb-countdown-container  .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 2px;
+    }
+}

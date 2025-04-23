@@ -1,0 +1,121 @@
+/* VueNation24 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-vuenation24 {
+    background: linear-gradient(90deg, #17191D 0%, #01403C 100%);
+}
+
+#bb-banner.bb-campaign-vuenation24:hover .bb-core .bb-button-wrapper .bb-button {
+    background: transparent;
+    border: #2CE27E 2px solid;
+    color: #2CE27E;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vuenation24 .bb-logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#bb-banner.bb-campaign-vuenation24 .bb-core .bb-slogan .bb-title-container {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-vuebundle .bb-core .bb-button-wrapper {
+    display: none;
+  }
+
+  #bb-banner.bb-campaign-vuenation24 .bb-title {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Inter', -apple-system;
+    font-weight: 500;
+  }
+
+  #bb-banner.bb-campaign-vuenation24 .bb-title strong {
+    font-weight: 700;
+  }
+
+  #bb-banner.bb-campaign-vuenation24 .bb-button-wrapper .bb-button {
+    background: #2CE27E;
+    border-radius: 50px;
+    border: #2CE27E 2px solid;
+    color: #17191D;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    height: 42px;
+    padding: 0px 25px;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Inter";
+  }
+
+  #bb-banner.bb-campaign-vuenation24 .bb-title em {
+    color: #2CE27E;
+    font-style: normal;
+  }
+
+#bb-banner.bb-campaign-vuenation24 .bb-addendum {
+    color: #2CE27E;
+    font: normal;
+    font-family: 'Inter';
+    font-size: 18px;
+    margin-left: 16px;
+}
+  #bb-banner.bb-campaign-vuenation24 .bb-vn-image {
+    width: 200px;
+    height: 70px;
+    margin-right: 20px;
+
+    .speaker-image {
+      display: none;
+      width: 200px;
+    }
+  }
+
+@media screen and (max-width: 1280px) {
+  #bb-banner.bb-campaign-vuenation24 .bb-vn-image {
+    display: none;
+  }
+
+  #bb-banner.bb-campaign-vuenation24 .bb-core {
+      
+    .bb-slogan {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  #bb-banner.bb-campaign-vuenation24 .bb-logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  #bb-banner.bb-campaign-vuenation24 .bb-logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+#bb-banner.bb-campaign-vuenation24 .bb-button-wrapper {
+    display: none;
+}
+
+#bb-banner.bb-campaign-vuenation24 .bb-addendum {
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+#bb-banner.bb-campaign-vuenation24 .bb-title {
+    width: 184px;
+    font-size: 14px;
+  }
+}

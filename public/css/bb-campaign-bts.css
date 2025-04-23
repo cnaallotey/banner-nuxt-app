@@ -1,0 +1,185 @@
+/* BTS */
+
+#bb-banner.bb-campaign-bts {
+  background: #1f6b34;
+}
+
+#bb-banner.bb-campaign-bts * {
+  font-family: 'Roboto', sans-serif;
+}
+
+#bb-banner.bb-campaign-bts .bb-logo {
+  width: 30px;
+  height: 35px;
+}
+
+#bb-banner.bb-campaign-bts .bb-core .bb-slogan .bb-title-container {
+  width: 310px;
+}
+
+#bb-banner.bb-campaign-bts .bb-title {
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+}
+
+#bb-banner.bb-campaign-bts .bb-subtitle {
+  color: #FFF;
+  font-size: 15px;
+}
+
+#bb-banner.bb-campaign-bts .bb-core {
+  transform: scale(0.8);
+}
+
+#bb-banner.bb-campaign-bts .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-bts .bb-core .bb-button-wrapper .bb-button {
+  color: #11144B;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #FFE815 0%, #FF8139 100%);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#bb-banner.bb-campaign-bts .bb-core .bb-button-wrapper .bb-button:hover {
+  background: linear-gradient(180deg, #FF8139 0%, #FFE815 100%);
+}
+
+
+#bb-banner.bb-campaign-bts .bb-core .bb-countdown {
+  color: #FFE815;
+  background: #125525;
+  font-weight: bold;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+#bb-banner.bb-campaign-bts .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  color: #FFE815;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-bts .bb-core .bb-addendum {
+  color: #FFE815;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  order: 3;
+  font-weight: bold;
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-bts .bb-core {
+    transform: none;
+    gap: 18px;
+    width: auto;
+    margin-left: 90px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-logo {
+    width: 158px;
+    height: 36px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-slogan .bb-title-container {
+    width: 310px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-addendum {
+    width: 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-bts .bb-background {
+    background-position: -10px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core {
+    margin-left: 120px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-logo {
+    width: 202px;
+    height: 32px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-slogan .bb-title-container {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-title {
+    font-size: 18px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-subtitle {
+    font-size: 18px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-button-wrapper .bb-button {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-bts .bb-core .bb-countdown-wrapper {
+    flex-direction: row-reverse;
+    gap: 16px;
+  }
+}
+
+/* Customization */
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-logo {
+  width: 71px;
+  height: 28px;
+  background-image: url(https://vueschool.io/images/banners/assets/BTS23/promo-logo.svg);
+}
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-core {
+  margin-left: 30px;
+}
+
+@media (min-width: 768px) {
+  html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-logo {
+    width: 106px;
+    height: 44px;
+  }
+
+  html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-core {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-logo {
+    width: 80px;
+    height: 29px;
+  }
+
+  html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-background {
+    background-position: -100px;
+  }
+
+  html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-addendum {
+    width: auto;
+  }
+
+  html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-bts .bb-core {
+    gap: 42px;
+  }
+}
+

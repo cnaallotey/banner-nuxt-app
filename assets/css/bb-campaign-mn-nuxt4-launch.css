@@ -1,0 +1,206 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-mn-nuxt4-launch {
+    background: #00DC82;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#bb-banner.bb-campaign-mn-nuxt4-launch:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    color: #0F172A;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+  #bb-banner.bb-campaign-mn-nuxt4-launch .bb-close {
+    color: #0F172A !important;
+  }
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-logo {
+    width: 122px;
+    height: 40px;
+    position: relative;
+    display: block;
+    background: url('https://vueschool.io/images/banners/assets/WINTER24/logo.svg') !important;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core {
+    gap: 60px;
+    margin-right: 30px;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    order: 2;
+}
+
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-prelude {
+    color: var(--Dark-Blue---Background, #0F172A);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    order: 1;
+ 
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan {
+    gap: 60px;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--Dark-Blue---Background, #0F172A);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: var(--Dark-Blue---Background, #0F172A);
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--Dark-Blue---Background, #0F172A);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    height: 32px;
+    padding: 6px 14px;
+    align-items: center;
+    gap: 2px;
+    border-radius: 4px;
+background: rgba(15, 23, 42, 0.10);
+color: var(--Dark-Blue---Background, #0F172A);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-countdown-container .bb-countdown-footer {
+    color: var(--Dark-Blue---Background, #0F172A);
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 44px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+background: var(--Dark-Blue---Background, #0F172A);  
+color: var(--White, #FFF);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core, #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-prelude {
+        max-width: 213px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core, #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core, #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan {
+        gap: 20px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-prelude {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 12px;
+        max-width: 74px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-button-wrapper .bb-button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-button-wrapper .bb-button {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-prelude {
+        max-width: fit-content;
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-mn-nuxt4-launch .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 10px;
+        max-width: 64px;
+    }
+}

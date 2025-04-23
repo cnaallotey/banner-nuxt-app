@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-vuejsnation-recruitment {
+    background: var(--Gradient-Banners, linear-gradient(90deg, #17191D 0%, #01403C 100%));
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #ffffff;
+    transition: background-color 0.5s, color 0.5s; 
+    color: #17191D;
+  }
+
+  #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core, #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan {
+    display: flex;
+    gap: 40px;
+  }
+
+  #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core {
+   margin-right: 40px;
+  }
+
+  #bb-banner.bb-campaign-vuejsnation-recruitment .bb-logo {
+    width: 169px;
+height: 30px;
+    position: relative;
+    margin-right: 80px;
+    background-image: url('https://staging-banner.bitterbrains.com/images/banners/assets/VUEJSNATION25/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-slogan .bb-prelude {
+    width: 142px;
+    height: 54px;
+        background-image: url('https://staging-banner.bitterbrains.com/images/banners/assets/VUEJSNATION25/speakers-new.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-countdown-container {
+    order: 5;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-button-wrapper {
+    order: 4;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: var(--Main-Color, #2CE27E);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container .bb-title span {
+   font-weight: 700;
+   color: var(--Main-Color, #2CE27E);
+ }
+
+ #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 42px;
+    padding: 0px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+background: var(--Green, #2CE27E);
+    color: var(--Background, #17191D);
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-countdown-container {
+    order: 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+background: linear-gradient(90deg, rgba(255, 0, 33, 0.20) 0%, rgba(134, 0, 255, 0.20) 99.98%);
+color: white;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core, #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan, #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container {
+        display: flex;
+        gap: 20px;
+      }
+ }
+
+ @media screen and (max-width: 1234px) {
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-logo {
+        width: 36px;
+    height: 30px;
+        position: relative;
+        margin-right: 80px;
+        background-image: url('https://staging-banner.bitterbrains.com/images/banners/assets/VUEJSNATION25/mark.svg');
+        margin-right: 30px;
+    }
+
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-slogan .bb-prelude {
+        display: none;
+    }
+ }
+
+
+ @media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core {
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-vuejsnation-recruitment .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 14px;
+        max-width: 220px;
+    }
+
+    #bb-banner.bb-campaign-vuejsnation-recruitment .bb-logo {
+        margin-right: 20px;
+    }
+
+ }

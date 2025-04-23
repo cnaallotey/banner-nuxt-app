@@ -1,0 +1,149 @@
+/* Cert */
+
+#bb-banner.bb-campaign-certificates {
+  background: linear-gradient(107deg, rgba(248, 100, 189, 0.20) 0%, rgba(71, 133, 254, 0.20) 100%), #252529;
+}
+
+#bb-banner.bb-campaign-certificates .bb-logo {
+  width: 30px;
+  height: 30px;
+}
+
+#bb-banner.bb-campaign-certificates .bb-core .bb-slogan .bb-title-container {
+  width: 280px;
+}
+
+#bb-banner.bb-campaign-certificates .bb-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(103deg, #F864BD 18.05%, #4785FE 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  text-align: center;
+  font-size: 16px;
+}
+
+#bb-banner.bb-campaign-certificates .bb-subtitle {
+  color: #FFF;
+}
+
+#bb-banner.bb-campaign-certificates .bb-core {
+  transform: scale(0.8);
+}
+
+#bb-banner.bb-campaign-certificates .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-certificates .bb-core .bb-button-wrapper .bb-button {
+  border-radius: 8px;
+  color: #FFF;
+  padding: 12px 24px;
+  line-height: 1;
+  background: linear-gradient(107deg, #F864BD 0%, #4785FE 100%);
+  font-size: 14px;
+}
+
+#bb-banner.bb-campaign-certificates .bb-core .bb-countdown-wrapper .bb-countdown {
+  background: linear-gradient(107deg, #F864BD 0%, #4785FE 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-certificates .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-certificates .bb-core .bb-addendum {
+  color: #FFF;
+  padding: 8px 20px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  order: 3;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  background: linear-gradient(107deg, rgba(248, 100, 189, 0.50) 0%, rgba(71, 133, 254, 0.50) 100%);
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-certificates .bb-core {
+    transform: none;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-slogan .bb-title-container {
+    width: 275px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-subtitle {
+    font-size: 14px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-countdown-wrapper .bb-countdown {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+    border-radius: 4px;
+    padding: 3px 8px;
+    background: linear-gradient(107deg, rgba(248, 100, 189, 0.50) 0%, rgba(71, 133, 254, 0.50) 100%);
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-certificates .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-logo {
+    width: 156px;
+    height: 38px;
+    position: static;
+    margin-right: 50px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-title {
+    font-size: 26px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-subtitle {
+    font-size: 18px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-countdown-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core {
+    gap: 32px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-button-wrapper .bb-button {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-certificates .bb-core .bb-slogan .bb-title-container {
+    flex-direction: row;
+    width: auto;
+    gap: 32px;
+  }
+}

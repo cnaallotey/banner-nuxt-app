@@ -1,0 +1,38 @@
+
+@media (min-width: 768px) {
+  #bb-banner .bb-core .bb-countdown {
+    font-weight: normal;
+    font-size: inherit;
+  }
+
+  #bb-banner .bb-core .bb-countdown .bb-countdown-item .bb-countdown-part {
+    border-radius: 2px;
+    padding: 4px 0;
+    text-align: center;
+    width: 42px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  #bb-banner .bb-core .bb-countdown .bb-countdown-item .bb-countdown-part > div {
+    display: block;
+  }
+
+  #bb-banner .bb-core .bb-countdown .bb-countdown-item .bb-countdown-part .bb-countdown-number {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  #bb-banner .bb-core .bb-countdown .bb-countdown-item .bb-countdown-part .bb-countdown-text {
+    font-size: 8px;
+    text-transform: uppercase;
+  }
+
+  #bb-banner .bb-core .bb-countdown .bb-countdown-item .bb-countdown-part .bb-countdown-text .bb-countdown-text-initial~span {
+    display: inline;
+  }
+
+  #bb-banner .bb-core .bb-countdown .bb-countdown-item .bb-countdown-colon {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,81 @@
+/* Winter */
+
+#bb-banner.bb-campaign-winter {
+  background: #285caa;
+}
+
+#bb-banner.bb-campaign-winter .bb-core .bb-countdown {
+  color: #FFF;
+}
+
+#bb-banner.bb-campaign-winter .bb-core .bb-button-wrapper .bb-button {
+  background: linear-gradient(360deg, #9CC1FF 29.05%, #FFFFFF 83.81%);
+  color: #202328;
+  border-radius: 40px;
+  padding: 12px 30px;
+}
+
+#bb-banner.bb-campaign-winter:hover .bb-core .bb-button-wrapper .bb-button {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner.bb-campaign-winter .bb-core .bb-title {
+  font-size: 9px;
+  font-weight: normal;
+  color: #9CC1FF;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-winter .bb-core .bb-title strong {
+  color: #0BD88F;
+}
+
+#bb-banner.bb-campaign-winter .bb-core .bb-subtitle {
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  background: linear-gradient(360deg, #9CC1FF 29.05%, #FFFFFF 83.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-winter .bb-logo {
+  background-image: url("https://vueschool.io/images/mark-vueschool-original.svg");
+  width: 35px;
+  height: 35px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-winter .bb-core .bb-title {
+    font-size: 12px;
+  }
+
+  #bb-banner.bb-campaign-winter .bb-core .bb-subtitle {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-winter .bb-core .bb-slogan {
+    width: 400px;
+  }
+
+  #bb-banner.bb-campaign-winter .bb-core .bb-title {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-winter .bb-logo {
+    background-image: url("https://vueschool.io/images/logo-vueschool-original.svg");
+    width: 126px;
+    height: 40px;
+  }
+}
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-winter .bb-logo {
+  display: none;
+}

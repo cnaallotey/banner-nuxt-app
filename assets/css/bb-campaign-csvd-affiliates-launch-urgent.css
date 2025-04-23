@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent {
+    background: #1E1E20;
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #ffffff;
+    color: var(--Background, #1E1E20); 
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-logo {
+    width: 240px;
+height: 37px; 
+background-image: url('https://vueschool.io/images/banners/assets/CERTIFICATES/logo.svg');
+    position: relative;
+    margin-right: 60px;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container {
+    order: 2;
+    width: 280px;
+    justify-content: center;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-button-wrapper {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-interlude {
+    order: 3;
+    white-space: nowrap;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container {
+    order: 1;
+}
+
+
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-interlude, #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-button-wrapper::before {
+    color: var(--Body-Text, #E8E6E6);
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-title span {
+    background: var(--Gradient, linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-prelude {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    order: 2;
+ }
+
+ #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container  .bb-countdown-wrapper  .bb-countdown-footer {
+     color: var(--White, #FFF);
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+display: flex;
+padding: 8px 10px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: linear-gradient(90deg, rgba(66, 184, 131, 0.30) 0%, rgba(66, 184, 131, 0.30) 0%, rgba(14, 187, 210, 0.30) 47.54%);
+ }
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: var(--White, var(--White, #FFF));
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+
+
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan {
+    gap: 40px;
+}
+
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-button-wrapper .bb-button {
+    color: var(--Dark-Background, #1E1E20);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+height: 42px;
+padding: 0px 18px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: linear-gradient(90deg, #42B883 0%, #42B883 0.01%, #0EBBD2 99.98%);
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-button-wrapper::before {
+    content: "Early Access Offers End Soon";
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 0px; 
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1px;
+padding: 4px 0px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-subtitle, #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-prelude {
+        color: var(--White, var(--White, #FFF));
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: block;   
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core {
+        gap: 40px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-prelude::before {
+        color: var(--White, #FFF);
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+display: flex;
+padding: 6px 6px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+border-radius: 4px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container {
+        width: auto;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+        padding: 6px 8px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-button-wrapper::before {
+display: none;
+    }
+
+}
+
+@media screen and (max-width: 1230px) {
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-button-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core{
+        gap: 0px;
+        flex-direction: column;
+    }
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-logo {
+        width: 35.455px;
+height: 36px; 
+    background-image: url('https://vueschool.io/images/banners/assets/CERTIFICATES/mark.svg');
+        position: absolute;
+        margin-right: 30px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-subtitle, #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-slogan .bb-prelude {
+        font-size: 13px;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 4px;
+    }
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+        padding: 0px;
+        background: transparent;
+        font-size: 10px;
+        background: var(--Gradient, linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+    #bb-banner.bb-campaign-csvd-affiliates-launch-urgent .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        color: var(--White, #FFF);
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+
+}

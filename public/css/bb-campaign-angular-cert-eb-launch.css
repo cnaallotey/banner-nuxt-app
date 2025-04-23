@@ -1,0 +1,238 @@
+/* Mastering Pinia Vue.js nation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-angular-cert-eb-launch {
+    background: #1A1A1C;
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #fff;
+    color: var(--Background, #1A1A1C);
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-logo {
+    width: 257.81px;
+    height: 30px;
+    position: relative;
+    margin-right: 60px;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-prelude {
+    order: 1;
+    white-space: nowrap;
+    color: var(--Body-Text, #979FAD);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px; /* 100% */ 
+display: inline-flex;
+align-items: center;
+gap: 8px;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-prelude::after {
+    content: url('https://staging.vueschool.io/images/banners/assets/CERT_ANGULAR/gde.svg');
+width: 96px;
+height: 20px; 
+background-repeat: no-repeat;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--White, var(--white, #FFF));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title span  {
+    color: var(--Pink, var(--White, #F921BA)); 
+ }
+
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+display: none;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle span {
+    font-weight: 700; 
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan {
+    gap: 40px;
+    order: 1;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-button-wrapper {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 42px;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+background: linear-gradient(90deg, #FF0021 0%, #F921BA 47.99%, #8600FF 99.98%);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    order: 2;
+    
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-interlude {
+    display: none;
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 0px; 
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+border-radius: 4px;
+background: var(--ff-1-a-7-a, rgba(255, 26, 122, 0.20));
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.8px; 
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container  .bb-countdown-wrapper  .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+
+@media screen and (max-width: 1280px)  {
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        white-space: nowrap;
+        color: var(--Body-Text, #979FAD);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */ 
+    display: block;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-prelude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-logo {
+        width: 43.33px;
+    height: 44px;
+        position: relative;
+        margin-right: 40px;
+    }
+    
+
+}
+
+@media screen and (max-width: 788px) {
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-logo {
+        width: 43.33px;
+    height: 44px;
+        position: relative;
+        margin-right: 0px;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan {
+        flex-direction: column;
+        gap: 0;
+        width: 85%;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 12px;
+    }
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-interlude {
+        display: block;
+        order: 1;
+        color: var(--White, var(--white, #FFF));
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    #bb-banner.bb-campaign-angular-cert-eb-launch .bb-core .bb-slogan .bb-interlude span  {
+        color: var(--Pink, var(--White, #F921BA)); 
+     }
+}

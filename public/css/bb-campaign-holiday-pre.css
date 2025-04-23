@@ -1,0 +1,142 @@
+/* Holiday Pre */
+
+#bb-banner.bb-campaign-holiday-pre .bb-background {
+  margin-left: -50px;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-logo {
+  width: 30px;
+  height: 34px;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-slogan {
+  width: 170px;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-title {
+  color: #FFDA15;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-title b {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFF;
+  font-size: 8px;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-subtitle {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-button-wrapper .bb-button {
+  color: #11144B;
+  border-radius: 50px;
+  background: #FFDA15;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: Rubik, sans-serif;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-countdown {
+  color: #FCFF15;
+}
+
+#bb-banner.bb-campaign-holiday-pre .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  color: #FCFF15;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-holiday-pre .bb-background {
+    margin-left: 0;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title {
+    width: 235px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title b {
+    font-size: 10px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-subtitle {
+    font-size: 15px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core {
+    transform: translate(60px);
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-slogan {
+    width: 420px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-button-wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-holiday-pre .bb-logo {
+    width: 104px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core {
+    transform: translate(40px);
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title-container {
+    gap: 32px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title {
+    font-size: 24px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title {
+    width: 195px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-title b {
+    font-size: 12px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-subtitle {
+    font-size: 18px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-countdown-wrapper {
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+
+  #bb-banner.bb-campaign-holiday-pre .bb-core .bb-countdown {
+    font-size: 16px;
+  }
+}
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-holiday-pre .bb-logo {
+  display: none;
+}

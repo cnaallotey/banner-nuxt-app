@@ -1,0 +1,176 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch {
+    background: #020420;
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-side-image {
+   display: none;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-logo {
+    width: 43.333px;
+height: 44px; 
+overflow: hidden;
+    background-repeat: no-repeat; 
+    
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core {
+    gap: 50px;
+    margin-top: 0px;
+
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-slogan .bb-prelude {
+    color: var(--Body-Text, #979FAD);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */ 
+ 
+}
+
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-slogan .bb-prelude b {
+    font-weight: 700;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-slogan {
+    gap: 50px;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title b {
+    color: #00DC82;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container {
+    display: flex;
+    flex-direction: row !important;
+    gap: 50px;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-subtitle {
+    color: var(--White, var(--White, #FFF));
+    display: none;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-countdown-container .bb-countdown {
+padding: 6px 14px;
+border-radius: 4px;
+background: rgba(43, 246, 163, 0.20);
+color: white;
+}
+
+#bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 42px;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+background: var(--Angular---Gradient, #00DC82);
+    color: var(--Background, #020420);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+
+@media screen and (min-width: 1440px) {
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-logo {
+        position: relative;
+        transform: translateX(-40px);
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container {
+        display: flex;
+        flex-direction: column !important;
+        gap: 0px;
+    }
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core,  #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-slogan {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-slogan .bb-prelude {
+        display: none; 
+    }
+
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container .bb-title {
+        font-size: 15px;
+    }
+
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container .bb-subtitle {
+        display: block;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-button-wrapper {
+        display: none;
+    }
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container {
+        width: 230px;
+    }
+
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container .bb-title, #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core .bb-title-container .bb-subtitle {
+        font-size: 12px;
+        line-height: normal;
+
+    }
+
+    #bb-banner.bb-campaign-vs-nuxt-certification-launch .bb-core {
+        gap: 0px;
+    }
+}

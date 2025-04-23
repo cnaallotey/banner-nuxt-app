@@ -1,0 +1,122 @@
+/* Free Weekend */
+
+#bb-banner.bb-campaign-freeweekend-alt {
+  background: linear-gradient(180deg, #365A85 4.14%, #3D7760 109.03%);
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core {
+  width: 164px;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-extended {
+  background: #FFCB46;
+  color: #07192B;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 9px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 5px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-slogan {
+  width: auto;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-button-wrapper .bb-button {
+  background: #61C88A;
+  color: #1A1A1A;
+  padding: 13px 17px;
+  background: #61C88A;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 32px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt:hover .bb-core .bb-button-wrapper .bb-button {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-title-container {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-title {
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-subtitle {
+  color: #96C8C9;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt .bb-logo {
+  background-image: url("https://vueschool.io/images/mark-vueschool.svg");
+  width: 35px;
+  height: 35px;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt-extended .bb-core {
+  width: 164px;
+}
+
+#bb-banner.bb-campaign-freeweekend-alt-extended .bb-core .bb-title {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-freeweekend-alt .bb-core {
+    margin-right: -75px;
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-button-wrapper {
+    display: inline-block;
+  }
+
+  #bb-banner.bb-campaign-freeweekend-alt .bb-logo {
+    background-image: url("https://vueschool.io/images/logo-vueschool-variant.svg");
+    width: 126px;
+    height: 40px;
+  }
+
+  #bb-banner.bb-campaign-freeweekend-alt-extended .bb-core {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-freeweekend-alt-extended .bb-core .bb-title {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-freeweekend-alt .bb-core {
+    gap: 16px;
+    margin: auto;
+  }
+
+  #bb-banner.bb-campaign-freeweekend-alt .bb-background {
+    background-position: -60px center;
+  }
+
+  #bb-banner.bb-campaign-freeweekend-alt .bb-core .bb-title-container {
+    flex-direction: row;
+    gap: 8px;
+  }
+}
+

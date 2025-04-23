@@ -1,0 +1,153 @@
+/* Cyber Monday */
+
+#bb-banner.bb-campaign-cybermonday {
+  background: linear-gradient(90deg, #0B1547 0%, #4C0882 100%);
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-logo {
+  width: 35px;
+  height: 39px;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-core .bb-slogan .bb-title-container {
+  width: 240px;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-title {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-subtitle {
+  font-size: 11px;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-title i,
+#bb-banner.bb-campaign-cybermonday .bb-subtitle i {
+  font-style: normal;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-core .bb-button-wrapper .bb-button {
+  border-radius: 50px;
+  background: linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%);
+  color: #000;
+  padding: 10px 24px;
+  font-size: 14px;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-core .bb-button-wrapper .bb-button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner .bb-core .bb-countdown {
+  color: #FFF;
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-core .bb-countdown-footer {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-cybermonday .bb-core .bb-addendum {
+  color: #FFF;
+  text-transform: uppercase;
+  order: 3;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-cybermonday .bb-title {
+    font-size: 18px;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-subtitle {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-slogan .bb-title-container {
+    flex-direction: row;
+    width: 390px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-countdown {
+    padding: 6px 14px;
+    border-radius: 4px;
+    background: #343a81;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-addendum {
+    font-size: 12px;
+    letter-spacing: 1.4px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-cybermonday .bb-core {
+    gap: 50px;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-title {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-logo {
+    width: 122px;
+    height: 40px;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-subtitle {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-slogan .bb-title-container {
+    gap: 50px;
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-button-wrapper .bb-button {
+    font-size: 14px;
+  }
+
+  #bb-banner.bb-campaign-cybermonday .bb-core .bb-countdown-wrapper {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Vue School */
+
+html.bb-vueschool #bb-banner.bb-campaign-cybermonday {
+  font-family: 'Inter', sans-serif;
+}
+
+html.bb-vueschool #bb-banner.bb-campaign-cybermonday .bb-logo {
+  display: none;
+}

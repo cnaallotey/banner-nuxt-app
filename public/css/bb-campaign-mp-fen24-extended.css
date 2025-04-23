@@ -1,0 +1,254 @@
+/* Mastering Pinia Vue.js nation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-mp-fen24-extended {
+    background: var(--MP-CyberMonday, linear-gradient(90deg, rgba(255, 215, 6, 0.20) 1.49%, rgba(63, 223, 98, 0.20) 100%), #000);
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-logo {
+    width: 167.561px;
+    height: 26px; 
+    position: relative;
+    margin-right: 60px;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-prelude {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-interlude {
+    color: var(--Yellow, #FFD706);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.84px;
+text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-prelude span {
+    color: #FFD706;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+white-space: nowrap;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+white-space: nowrap;
+
+
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan {
+    gap: 40px;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container .bb-title b {
+    color: #FFD706; 
+    font-weight: 600;
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+height: 40px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: #FFD706;  
+color: #131620;
+font-style: normal;
+font-weight: 600; 
+font-size: 14px; 
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-countdown-footer {
+    font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+color: white;
+text-transform: uppercase; 
+}
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-addendum {
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-countdown {
+    border-radius: 4px;
+background: rgba(255, 215, 6, 0.20);
+padding: 6px 14px; 
+color: #fff;
+}
+
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core {
+        gap: 40px;
+    }
+
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-logo {
+        width: 80px;
+        height: 26px; 
+        position: relative;
+        margin-right: 40px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container::before  {
+      content: "extended";
+      color: var(--Yellow, #FFD706);
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.84px;
+text-transform: uppercase; 
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-button-wrapper  {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container {
+        order: 2 !important;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-countdown {
+    background: transparent;
+    padding: 0px; 
+    color: #fff;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-logo {
+        width: 32px;
+        height: 26px; 
+        position: absolute;
+        margin-right: 0px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-button-wrapper {
+        order: 3;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core {
+       flex-direction: column;
+       gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-button-wrapper {
+        display: none;
+      }
+
+      #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 10px;
+      }
+
+      #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 10px;
+      }
+
+      #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan .bb-prelude {
+        margin-right: 0px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-slogan {
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container::before {
+        font-size: 10px;
+        letter-spacing: 0.9px;
+    }
+
+    #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-countdown, #bb-banner.bb-campaign-mp-fen24-extended .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 9px;
+    }
+    
+}

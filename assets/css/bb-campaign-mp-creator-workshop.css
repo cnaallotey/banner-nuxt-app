@@ -1,0 +1,283 @@
+/* Mastering Pinia Vue.js nation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-mp-creator-workshop {
+    background: linear-gradient(90deg, rgba(255, 215, 6, 0.20) 1.49%, rgba(63, 223, 98, 0.20) 100%), #000;
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #fff; 
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-logo {
+    width: 167.561px;
+height: 26px; 
+background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/MASTERING_PINIA\/logo.svg');
+    position: relative;
+    margin-right: 60px;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-interlude {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    background: var(--Gradient-01, linear-gradient(90deg, #FFD706 1.49%, #3FDF62 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-prelude {
+    order: 1;
+    white-space: nowrap;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-interlude {
+    height: 72px;
+    width: 68.75px; 
+    order: 2;
+    flex-shrink: 0;
+    background: url('https://staging.vueschool.io/images/pinia-banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--White, var(--white, #FFF));
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-title span  {
+    background: var(--Gradient-01, linear-gradient(90deg, #FFD706 1.49%, #3FDF62 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: var(--White, var(--white, #FFF));
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-subtitle span {
+    font-weight: 700; 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan {
+    gap: 40px;
+    order: 1;
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-button-wrapper {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 40px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Background, #131620);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+border-radius: 50px;
+background: var(--Gradient-01, linear-gradient(90deg, #FFD706 1.49%, #3FDF62 100%));
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    order: 2;
+    
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container::before {
+    content: "Ends";
+    color: var(--White, var(--white, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+display: flex;
+padding: 8px 10px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--gradient-20, linear-gradient(90deg, rgba(255, 215, 6, 0.20) 1.49%, rgba(63, 223, 98, 0.20) 100%)); 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 0px; 
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+border-radius: 4px;
+background: var(--ff-1-a-7-a, rgba(255, 26, 122, 0.20));
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.8px; 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container  .bb-countdown-wrapper  .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+
+@media screen and (max-width: 1280px)  {
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core {
+        gap: 30px;
+    }
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-subtitle, #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan {
+        gap: 30px;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-logo {
+        width: 38px;
+        margin-right: 20px;
+        background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/MASTERING_PINIA\/mark.svg');
+        position: relative;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-prelude {
+        font-size: 13px;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container::before {
+        color: var(--White, var(--white, #FFF));
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+padding: 0px;
+background: transparent;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core {
+        flex-direction: column;
+        gap: 0px;
+        width: 80%;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-subtitle, #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-slogan .bb-prelude {
+        font-size: 10px;
+        white-space: wrap;
+    }
+    
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-core .bb-countdown-container {
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-mp-creator-workshop .bb-logo {
+        width: 38px;
+        margin-right: 20px;
+        background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/MASTERING_PINIA\/mark.svg');
+        position: absolute;
+    }
+}

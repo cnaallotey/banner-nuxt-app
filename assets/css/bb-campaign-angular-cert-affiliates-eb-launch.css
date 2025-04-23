@@ -1,0 +1,300 @@
+/* Mastering Pinia Vue.js nation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch {
+    background: #1A1A1C;
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #fff;
+    color: var(--Background, #1A1A1C);
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-logo {
+    width: 257.81px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-shrink: 0;
+    margin-right: 60px;
+    background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/CERT_ANGULAR\/cert-angular-desktop.svg') !important;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude {
+    order: 1;
+    color: #979FAD;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+display: inline-flex;
+align-items: center;
+white-space: nowrap;
+gap: 8px;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude > span {
+    display: none;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude::after {
+    content: " ";
+width: 113px;
+height: 34px; 
+background-repeat: no-repeat;
+background-size: contain;
+background-image: url('https://staging.vueschool.io/images/banners/assets/CERT_ANGULAR/at-logo.png');
+overflow: hidden;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--White, var(--white, #FFF));
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title span  {
+    color: var(--Pink, var(--White, #F921BA)); 
+ }
+
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+display: none;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container .bb-subtitle span {
+    font-weight: 700; 
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan {
+    gap: 40px;
+    order: 1;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-button-wrapper {
+    order: 3;
+}
+
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 42px;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+background: linear-gradient(90deg, #FF0021 0%, #F921BA 47.99%, #8600FF 99.98%);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    order: 2;
+    
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-interlude {
+    order: 4;
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 0px; 
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+border-radius: 4px;
+background: var(--pink-30, rgba(249, 33, 143, 0.30)); 
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.8px; 
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container  .bb-countdown-wrapper  .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--Pink, var(--Pink, #F921BA));
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container {
+    gap: 30px;
+}
+
+@media screen and (max-width: 1600px) {
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container  .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container, #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container  .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-countdown-container  .bb-countdown-wrapper .bb-countdown {
+        padding: 0px;
+        background: transparent;
+        font-size: 12px;
+        
+    }
+}
+
+
+@media screen and (max-width: 1280px)  {
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude > span {
+        display: block;
+        font-weight: 700;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude::after {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude {
+        width: 180px;
+        flex-wrap: wrap;
+        line-height: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan {
+        gap: 30px;
+    }
+
+     #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container {
+        width: 220px;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-logo {
+        width: 44px;
+        margin-right: 30px;
+        transform: translateX(-20px);
+        background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/CERT_ANGULAR\/cert-angular-mobile.svg') !important;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core {
+        gap: 10px;
+        transform: translateX(-20px);
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude {
+        display: inline-flex;
+        gap: 4px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core {
+        gap: 0px;
+    }
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan {
+        flex-direction: column-reverse;
+        gap: 0px;
+        align-items: center;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-button-wrapper {
+        display: none;
+    }
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container {
+        width: auto;
+        gap: 0px 2px;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 13px;
+        line-height: normal;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core {
+        width: 180px;
+    }
+
+    #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-angular-cert-affiliates-eb-launch .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 12px;
+        line-height: normal;
+    }
+    
+}
+

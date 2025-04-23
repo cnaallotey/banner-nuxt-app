@@ -1,0 +1,26 @@
+/* Nuxt Website */
+
+html.has-bb-banner.nuxtjs_org .d-header,
+html.has-bb-banner.nuxtjs_org .d-header-home {
+  top: 72px;
+}
+
+html.has-bb-banner.nuxtjs_org .top-header {
+  top: calc(var(--header-height) + 72px);
+}
+
+/* Nuxt 3 Website */
+
+html.has-bb-banner.v3_nuxtjs_org header {
+  top: 72px;
+}
+
+html.has-bb-banner.v3_nuxtjs_org .top-header {
+  top: calc(var(--header-height) + 72px);
+}
+
+@media (min-width: 1024px) {
+  html.has-bb-banner.v3_nuxtjs_org .lg\\:top-header {
+    top: calc(var(--header-height) + 72px);
+  }
+}

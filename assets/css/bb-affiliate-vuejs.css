@@ -1,0 +1,18 @@
+
+/* Vue Js Org Vite Press */
+
+html.has-bb-banner {
+  scroll-padding-top: 134px;
+  overflow: auto;
+}
+
+html.has-bb-banner .VPSidebar,
+html.has-bb-banner .VPContentDoc.has-sidebar.has-aside .aside-container {
+  top: 127px;
+}
+
+@media (min-width: 960px) {
+  html.has-bb-banner .VPNav {
+    top: 72px;
+  }
+}

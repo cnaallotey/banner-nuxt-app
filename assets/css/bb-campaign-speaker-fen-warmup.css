@@ -1,0 +1,205 @@
+/* Vue School */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-speaker-fen-warmup {
+    background: black;
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-side-image {
+   display: none;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #4901BD;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    transition: background-color 0.5s, color 0.5s; 
+    
+  }
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-logo {
+    width: 164px;
+height: 34px; 
+overflow: hidden;
+    background-repeat: no-repeat; 
+    position: relative;
+    
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core {
+    gap: 50px;
+    margin-top: 0px;
+
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan .bb-interlude {
+    width: 139px;
+    height: 57px; 
+    overflow: hidden;
+    background-image: url('https://staging.vueschool.io/images/banners/assets/FEN24/speakers.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan .bb-prelude {
+    width: 261px;
+    height: 44px; 
+    overflow: hidden;
+    background-image: url('https://staging.vueschool.io/images/banners/assets/FEN24/logos1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 20px;
+}
+
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan .bb-prelude b {
+    font-weight: 700;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan {
+    gap: 50px;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-title {
+    color: var(--White, var(--gray, #D5D5D5));
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-title span {
+    color: var(--Main, #FFEE04);
+}
+
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-subtitle {
+    color: var(--White---Text, #D5D5D5);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-title-container {
+    display: flex;
+    flex-direction: column !important;
+    gap: 0px;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 42px;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #FFEE04;
+background: var(--Angular---Gradient, #FFEE04);
+    color: var(--Background, #000);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-button-wrapper::before {
+    content: 'Online 4 - 7 June 2024';
+    max-width: 124px;
+    color: var(--Main, #FFEE04);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+@media screen and (max-width: 1600px) {
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-button-wrapper::before {
+        max-width: 124px;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-logo {
+        width: 54px;
+    height: 34px; 
+    overflow: hidden;
+        background-repeat: no-repeat; 
+        position: relative;
+        
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core {
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-button-wrapper .bb-button {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-title {
+        text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+line-height: 14px; /* 93.333% */ 
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-button-wrapper::before {
+        font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+max-width: 100%; 
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-logo {
+        width: 54px;
+    height: 34px; 
+    overflow: hidden;
+        background-repeat: no-repeat; 
+        position: absolute;
+        
+    }
+
+    #bb-banner.bb-campaign-speaker-fen-warmup .bb-core .bb-subtitle {
+        font-size: 16px;
+    }
+}

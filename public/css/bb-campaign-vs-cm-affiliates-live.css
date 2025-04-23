@@ -1,0 +1,275 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live {
+    background: linear-gradient(90deg, #0B1547 0%, #4C0882 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #5401FF;
+    color: var(--Background, #ffffff);
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-logo {
+    width: 127px;
+    height: 28px;
+    background-image: url('https://vueschool.io/images/banners/assets/BLACKFRIDAY/vs-logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-right: 60px;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core {
+    gap: 40px;
+
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-title-container {
+    max-width: max-content;
+
+}
+
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-prelude {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+     
+    }
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-interlude {
+    width: 135px;
+    height: 35px;
+    background-image: url('https://vueschool.io/images/banners/assets/BLACKFRIDAY/bonus-items-eb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-prelude span {
+    background: var(--VS-Cyber-Monday, linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan {
+    gap: 40px;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-title {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-title span {
+    color: #00FFF0;
+    font-weight: 700;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-subtitle {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgba(0, 224, 255, 0.20) 1.82%, rgba(0, 255, 163, 0.20) 100%);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+#bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 40px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Background, #131620);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 50px;
+background: var(--VS-Cyber-Monday, linear-gradient(90deg, #00E0FF 1.82%, #00FFA3 100%));
+}
+
+@media screen and (max-width: 1440px) {
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-title-container {
+        max-width: 185px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core,  #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan {
+        gap: 20px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-prelude {
+        max-width: 178px;
+        font-size: 18px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-logo {
+        width: 33px;
+        height: 28px;
+        background-image: url('https:\/\/vueschool.io\/images\/banners\/assets\/WINTER24\/mark.svg');
+        margin-right: 60px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-addendum {
+        max-width: 50px;
+        text-align: center;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 16px;
+    }
+
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 0px;
+background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-logo {
+        position: absolute;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-prelude {
+        font-size: 13px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+max-width: max-content;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-title-container {
+        max-width: 245px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 11px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-addendum {
+        max-width: fit-content;
+        text-align: center;
+        font-size: 9px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+        font-size: 10px;
+    }
+
+    #bb-banner.bb-campaign-vs-cm-affiliates-live .bb-core .bb-button-wrapper .bb-button {
+        display: none;
+    }
+
+}

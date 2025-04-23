@@ -1,0 +1,268 @@
+/* Vue School */
+
+
+#bb-banner.bb-campaign-vs-winter24-ext {
+    background: linear-gradient(90deg, #212435 0%, #255A47 100%);
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-interlude {
+    width: 132px;
+    height: 52px;
+    background-image: url('https://vueschool.io/images/banners/assets/WINTER24/techs.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    order: 2;
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-logo {
+    display: none;
+    
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core {
+    gap: 40px;
+    margin-top: 0px;
+
+}
+
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-prelude {
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+width: auto;
+text-align: left;
+order: 1;
+white-space: nowrap;
+ 
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-prelude b {
+    color: #0BD88F;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan {
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-title {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-title b {
+    color: #0BD88F;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container .bb-countdown {
+padding: 6px 14px;
+border-radius: 4px;
+background: rgba(43, 246, 163, 0.20);
+color: white;
+}
+
+#bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+height: 40px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px; 
+font-size: 14px;
+font-weight: 500;
+border-radius: 50px;
+background: #0BD88F; 
+}
+
+@media screen and (max-width: 1440px) {
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container {
+        order: 3;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-button-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-button-wrapper::before {
+        content: "Extended";
+        color: #0BD88F;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.84px;
+text-transform: uppercase; 
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container{
+        position: absolute;
+       flex-direction: row !important;
+       display: flex !important;
+       inset: auto;
+       margin-left: auto;
+       margin-right: auto;
+       left: 0px;
+       right: 0px;
+       width: auto;
+       justify-content: center;
+       bottom: -21px;}
+
+       #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container::before {
+        content: "Extended";
+        color: #0BD88F;
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 177.778% */
+letter-spacing: 2.16px;
+text-transform: uppercase; 
+       }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-interlude {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container {
+        position: absolute;
+        margin-right: 0px;
+        margin-left: 0px;
+        bottom: -10px;
+        width: 100%;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container {
+        margin-top: -10px !important;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-prelude {
+        transform: translateX(0px);
+    }
+
+
+   #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container .bb-title {
+    font-size: 14px;
+   }
+
+   #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    font-size: 14px;
+   }
+
+   #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container .bb-countdown {
+    padding: 0px;
+    background: transparent;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-logo {
+        display: none;
+        
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-prelude {
+        font-size: 10px;
+        width: auto;
+        transform: translateX(0px);
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    font-size: 10px;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-slogan .bb-title-container {
+        margin-top: 0px !important;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 4px;
+        bottom: 0px;
+    }
+
+    #bb-banner.bb-campaign-vs-winter24-ext .bb-core .bb-countdown-container .bb-countdown {
+        padding: 0px;
+        background: transparent;
+        font-size: 10px;
+        }
+
+        #bb-banner.bb-campaign-vs-winter24-ext .bb-side-image {
+            display: none;
+        }
+}

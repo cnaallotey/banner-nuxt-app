@@ -1,0 +1,127 @@
+/* Year End */
+
+#bb-banner.bb-campaign-ye {
+  background: #212435;
+}
+
+#bb-banner.bb-campaign-ye .bb-core .bb-slogan .bb-title-container {
+  width: 240px;
+}
+
+#bb-banner.bb-campaign-ye .bb-title {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-ye .bb-subtitle {
+  font-size: 11px;
+}
+
+#bb-banner.bb-campaign-ye .bb-title i {
+  color: #0BD88F;
+  font-style: normal;
+}
+
+#bb-banner.bb-campaign-ye .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-ye .bb-core .bb-button-wrapper .bb-button {
+  border-radius: 50px;
+  background: #0BD88F;
+  color: #000;
+  padding: 10px 24px;
+}
+
+#bb-banner.bb-campaign-ye .bb-core .bb-button-wrapper .bb-button:hover {
+  color: #3CEFAF;
+}
+
+#bb-banner.bb-campaign-ye .bb-core .bb-addendum {
+  color: #FFF;
+  order: 3;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-ye .bb-title {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-subtitle {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-slogan .bb-title-container {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-button-wrapper .bb-button {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-ye .bb-core {
+    gap: 32px;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-title {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-subtitle {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-subtitle::after {
+    content: '';
+    width: 182px;
+    height: 30px;
+    background-image: url(https://vueschool.io/images/banners/assets/YEAR_END/techs.svg);
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-slogan .bb-title-container {
+    gap: 20px;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-addendum {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-button-wrapper .bb-button {
+    font-size: 14px;
+  }
+
+  #bb-banner.bb-campaign-ye .bb-core .bb-countdown-wrapper {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Vue School */
+
+html.bb-vueschool #bb-banner.bb-campaign-ye {
+  font-family: 'Inter', sans-serif;
+}
+
+html.bb-vueschool #bb-banner.bb-campaign-ye .bb-logo {
+  display: none;
+}

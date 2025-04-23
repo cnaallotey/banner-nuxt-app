@@ -1,0 +1,88 @@
+/* MN */
+
+#bb-banner.bb-campaign-nn {
+  background: #020420;
+}
+
+#bb-banner.bb-campaign-nn .bb-logo {
+  width: 24px;
+  height: 28px;
+}
+
+#bb-banner.bb-campaign-nn .bb-core .bb-slogan {
+  width: 264px;
+}
+
+#bb-banner.bb-campaign-nn .bb-title {
+  color: #FFF;
+}
+
+#bb-banner.bb-campaign-nn .bb-subtitle {
+  color: #00DC82;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-nn .bb-title b {
+  color: #00DC82;
+}
+
+#bb-banner.bb-campaign-nn .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-nn .bb-core .bb-button-wrapper .bb-button {
+  border-radius: 8px;
+  background: #00DC82;
+  color: black;
+  padding: 9px 20px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-nn .bb-core .bb-slogan {
+    width: 340px;
+  }
+
+  #bb-banner.bb-campaign-nn .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-nn .bb-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-nn .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-nn .bb-logo {
+    width: 144px;
+    height: 28px;
+  }
+
+  #bb-banner.bb-campaign-nn .bb-core .bb-button-wrapper .bb-button {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-nn .bb-core .bb-subtitle {
+    font-size: 14px;
+  }
+
+  html.bb-vueschool #bb-banner.bb-campaign-nn .bb-background {
+    background-image: url(https://vueschool.io/images/banners/assets/NN23/bg-desktop-vueschool.png);
+    margin-left: -100px;
+  }
+}
+
+@media (min-width: 1536px) {
+  #bb-banner.bb-campaign-nn .bb-core .bb-title-container {
+    gap: 32px;
+    flex-direction: row;
+  }
+
+  #bb-banner.bb-campaign-nn .bb-core .bb-subtitle {
+    font-size: 18px;
+  }
+}

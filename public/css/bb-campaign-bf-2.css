@@ -1,0 +1,20 @@
+/* BF */
+
+#bb-banner.bb-campaign-bf-2 .bb-title i,
+#bb-banner.bb-campaign-bf-2 .bb-subtitle i {
+  font-style: normal;
+  font-weight: bold;
+  background: linear-gradient(90deg, #FF4E6E 1.82%, #E43EFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#bb-banner.bb-campaign-bf-2 .bb-core .bb-button-wrapper .bb-button {
+  border-radius: 50px;
+  background: linear-gradient(90deg, #FF4E6E 1.82%, #E43EFF 100%);
+  color: #000;
+  padding: 10px 24px;
+}
+

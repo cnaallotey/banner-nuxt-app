@@ -1,0 +1,18 @@
+
+/* Vuetify */
+
+html.has-bb-banner #app-bar {
+  margin-top: 72px !important;
+}
+
+@media (min-width: 768px) {
+  html.has-bb-banner #app-bar {
+  margin-top: 144px !important;
+  }
+
+  html.has-bb-banner #default-toc,
+  html.has-bb-banner #default-drawer,
+  html.has-bb-banner .v-system-bar.v-system-bar--fixed {
+    margin-top: 72px !important;
+  }
+}

@@ -1,0 +1,12 @@
+/* Cert 2 */
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-certificates-2 .bb-subtitle {
+    max-width: 370px;
+    text-align: left;
+  }
+
+  #bb-banner.bb-campaign-certificates-2 .bb-subtitle b {
+    color: #6180f5;
+  }
+}

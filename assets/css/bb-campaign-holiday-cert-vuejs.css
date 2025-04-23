@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-holiday-cert-vuejs {
+    background: var(--Dark-Background, #1A1A1C);
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #ffffff;
+    transition: background-color 0.5s, color 0.5s; 
+    color: #1A1A1C;
+  }
+
+  #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core, #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan {
+    display: flex;
+    gap: 40px;
+  }
+
+  #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core {
+   margin-right: 40px;
+  }
+
+  #bb-banner.bb-campaign-holiday-cert-vuejs .bb-logo {
+    width: 213px;
+height: 34px;
+    position: relative;
+    margin-right: 80px;
+    background-image: url('https://vueschool.io/images/banners/assets/CERTIFICATES/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-slogan .bb-prelude {
+    order: 1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   color: #fff;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-slogan .bb-prelude span {
+    color: #F7DF1E;
+  margin-right: 30px;
+  }
+
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container {
+    order: 5;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-button-wrapper {
+    order: 4;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--Body-Text, #E8E6E6);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 208px;
+    text-align: center;
+}
+
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-title span {
+    background: var(--Gradient, linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 40px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #42B883 0%, #42B883 0%, #0EBBD2 47.54%);
+    color: var(--Background, #131620);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container {
+    order: 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+background: linear-gradient(90deg, rgba(255, 0, 33, 0.20) 0%, rgba(134, 0, 255, 0.20) 99.98%);
+color: white;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+
+@media screen and (max-width: 1640px) {
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core {
+        gap: 40px;
+    }
+    
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-slogan .bb-title-container .bb-title {
+        max-width: fit-content;
+    }
+    
+    }
+
+@media screen and (max-width: 1280px) {
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core {
+        gap: 40px;
+    }
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-addendum {
+        max-width: 50px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-slogan .bb-title-container .bb-subtitle {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-logo {
+        margin-right: 20px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-slogan .bb-prelude span {
+        margin-right: 0px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-prelude {
+        font-size: 15px;
+        max-width: 130px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container {
+        max-width: fit-content;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 15px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-logo {
+        width: 39.394px;
+height: 40px;
+flex-shrink: 0;
+        background-image: url('https://vueschool.io/images/banners/assets/CERTIFICATES/mark.svg') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        margin-right: 40px;
+        
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 12px;
+        padding: 0px;
+        background-color: transparent;
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core {
+        margin-right: 30px;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-logo {
+        margin-right: 30px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-prelude {
+        max-width: fit-content;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container {
+        max-width: 250px;
+    } 
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-title,  #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-prelude, #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-addendum {
+        max-width: max-content;
+        font-size: 8px;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+        color: var(--White, var(--White, #FFF));
+        text-align: center;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        color: var(--White, var(--White, #FFF));
+        text-align: center;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    #bb-banner.bb-campaign-holiday-cert-vuejs .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 4px;
+    }
+}

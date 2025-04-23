@@ -1,0 +1,125 @@
+/* Vue Forge 3 */
+
+#bb-banner.bb-campaign-vueforge {
+  background: linear-gradient(89.88deg, #1D043F 0%, #550CB4 100%);
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-countdown-wrapper .bb-countdown-footer,
+#bb-banner.bb-campaign-vueforge .bb-core .bb-countdown {
+  background: linear-gradient(90deg, #F0562C 0%, #FCB540 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-button-wrapper .bb-button {
+  background: #FDB92C;
+  border-radius: 0;
+  color: #1D0D32;
+  padding: 10px 26px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-vueforge:hover .bb-core .bb-button-wrapper .bb-button {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-slogan {
+  width: 220px;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-title {
+  font-size: 10px;
+  color: #FDB92C;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-title b {
+  color: #d2445f;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-core .bb-subtitle {
+  color: #FFF;
+  font-size: 10px;
+}
+
+#bb-banner.bb-campaign-vueforge .bb-logo {
+  background-image: url("https://vueschool.io/images/mark-vueschool-original.svg");
+  width: 70px;
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-slogan {
+    width: 360px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-countdown-wrapper {
+    order: 2;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-button-wrapper {
+    order: 3;
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-title {
+    font-size: 12px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-subtitle {
+    font-size: 12px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-countdown {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-vueforge .bb-logo {
+    background-image: url("https://vueschool.io/img/logo/vueschool_logo_multicolor_negative.svg");
+    width: 140px;
+    height: 30px;
+    left: 80px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-slogan {
+    width: auto;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-button-wrapper .bb-button {
+    padding: 12px 40px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-title {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-subtitle {
+    font-size: 14px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-countdown {
+    font-size: 26px;
+  }
+
+  #bb-banner.bb-campaign-vueforge .bb-core .bb-countdown-wrapper .bb-countdown-footer {
+    font-size: 12px;
+  }
+}
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-vueforge .bb-logo {
+  display: none;
+}

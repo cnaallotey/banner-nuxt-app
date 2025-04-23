@@ -1,0 +1,91 @@
+/* Free Weekend */
+
+#bb-banner.bb-campaign-freeweekend {
+  background: linear-gradient(180deg, #502078 0%, #a4329b 100%);
+}
+
+#bb-banner.bb-campaign-freeweekend .bb-core .bb-countdown {
+  color: #FFCB46;
+}
+
+#bb-banner.bb-campaign-freeweekend .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-freeweekend .bb-core .bb-button-wrapper .bb-button {
+  background: linear-gradient(180deg, #96DDEF 0%, #4068A1 48.37%, #9C6DE6 100%);
+  color: #FFF;
+  border-radius: 40px;
+  padding: 12px 30px;
+  border: 1px solid #FFF;
+}
+
+#bb-banner.bb-campaign-freeweekend:hover .bb-core .bb-button-wrapper .bb-button {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner.bb-campaign-freeweekend .bb-core .bb-title {
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  background: linear-gradient(180deg, #E8E7D3 15.79%, #F4A4D7 48.77%, #F1D7A1 78.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-freeweekend .bb-core .bb-subtitle {
+  color: #FFF;
+  font-size: 12px;
+}
+
+#bb-banner.bb-campaign-freeweekend .bb-logo {
+  background-image: url("https://vueschool.io/images/mark-vueschool-original.svg");
+  width: 35px;
+  height: 35px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-freeweekend .bb-core .bb-title {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-freeweekend .bb-core .bb-subtitle {
+    font-size: 14px;
+  }
+
+  #bb-banner.bb-campaign-freeweekend .bb-core .bb-button-wrapper {
+    display: inline-block;
+  }
+
+  #bb-banner.bb-campaign-freeweekend .bb-core .bb-button-wrapper .bb-button {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-freeweekend .bb-core {
+    gap: 16px;
+  }
+
+  #bb-banner.bb-campaign-freeweekend .bb-core .bb-title {
+    font-size: 16px;
+  }
+
+  #bb-banner.bb-campaign-freeweekend .bb-logo {
+    background-image: url("https://vueschool.io/images/logo-vueschool-original.svg");
+    width: 126px;
+    height: 40px;
+  }
+}
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-freeweekend .bb-logo {
+  display: none;
+}

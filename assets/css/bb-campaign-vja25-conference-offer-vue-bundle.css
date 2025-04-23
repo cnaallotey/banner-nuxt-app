@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle {
+    background: var(--VU-CyberMonday, linear-gradient(270deg, rgba(249, 29, 174, 0.20) 12.81%, rgba(126, 29, 249, 0.20) 100%), #000);
+    font-family: 'Inter', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle:hover .bb-core .bb-button-wrapper .bb-button {
+    background: #8C31FF;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+  #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core, #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan {
+    display: flex;
+    gap: 40px;
+  }
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-logo {
+display: none;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-slogan .bb-prelude {
+    order: 1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-slogan .bb-prelude span {
+    color: #F91DAE;
+}
+
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container {
+    order: 5;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-button-wrapper {
+    order: 4;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-title {
+    color: var(--Body-Text, white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: var(--Body-Text, white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-title span {
+    color: var(--Secondary, #F91DAE);
+ }
+
+ #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+height: 40px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--Primary, #8C31FF);
+    background: var(--primary-20, rgba(126, 29, 249, 0.20));
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container {
+    order: 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+background: rgba(140, 49, 255, 0.20);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+@media screen and (max-width: 1450px) {
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 14px;
+        background-color: transparent;
+        background: transparent;
+        padding: 0px;
+    }
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-button-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-title, #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-title-container .bb-subtitle, #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-slogan .bb-prelude {
+        font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core {
+        flex-direction: column;
+        margin-right: 30px;
+        gap: 2px;
+    }
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown, #bb-banner.bb-campaign-vja25-conference-offer-vue-bundle .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer  {
+        font-size: 10px;
+    }
+
+}

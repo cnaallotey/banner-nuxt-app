@@ -1,0 +1,11 @@
+/* Mastering Nuxt Cyber Monday 2 */
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-masteringnuxt-cm .bb-title {
+    transform: translateX(-50px);
+  }
+
+  #bb-banner.bb-campaign-masteringnuxt-cm .bb-background {
+    transform: translateX(-200px);
+  }
+}

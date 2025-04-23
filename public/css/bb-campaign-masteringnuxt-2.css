@@ -1,0 +1,7 @@
+/* MN 2 */
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-masteringnuxt-2 .bb-background {
+    transform: translateX(240px);
+  }
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100..900&display=swap');
+
+#bb-banner.bb-campaign-vs-green-banner {
+    background: linear-gradient(90deg, #212435 0%, #255A47 100%);
+    font-family: 'Rubik', sans-serif !important;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core {
+    margin-right: 30px;
+}
+
+#bb-banner.bb-campaign-vs-green-banner:hover .bb-core .bb-button-wrapper .bb-button {
+  background-color: #fff;
+  color: #000;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+  #bb-banner.bb-campaign-vs-green-banner .bb-core, #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan {
+    display: flex;
+    gap: 30px;
+  }
+
+#bb-banner.bb-campaign-vs-green-banner .bb-logo {
+    width: 266px;
+height: 36px;
+position: relative;
+    background-image: url('http://staging-banner.bitterbrains.com/images/banners/assets/CERT_JS/logo.svg') !important;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+margin-right: 70px;
+display: none;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-slogan .bb-prelude {
+    width: 91px;
+    height: 68px;
+    background-image: url('http://staging-banner.bitterbrains.com/images/banners/assets/VUEJS_GREEN_BANNER/tech-left.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 70px;
+}
+
+
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container {
+    order: 5;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-button-wrapper {
+    order: 4;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container .bb-title{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container .bb-title span {
+    font-weight: 700;
+ }
+
+ #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container .bb-title span span {
+    font-weight: 700;
+    color: #0BD88F;
+ }
+
+ #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+    height: 40px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #0BD88F;
+    color: #212435;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-addendum {
+    
+    width: 105px;
+    height: 58px;
+    background-image: url('http://staging-banner.bitterbrains.com/images/banners/assets/VUEJS_GREEN_BANNER/tech-right.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 70px;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container {
+    order: 5;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-countdown {
+    display: flex;
+    padding: 6px 14px;
+    align-items: center;
+    border-radius: 4px;
+background: rgba(140, 49, 255, 0.20);
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-addendum {
+        margin-left: 20px;
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-prelude {
+        margin-right: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 1218px) {
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container {
+        max-width: 333px;
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-addendum {
+        margin-left: 0px;
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-prelude {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan,  #bb-banner.bb-campaign-vs-green-banner .bb-core {
+        gap: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container {
+        max-width: 174px;
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-title-container .bb-title {
+        font-size: 14px;
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-countdown-container .bb-addendum {
+        margin-right: 0px;
+        width: 67px;
+        height: 44px;
+        transform: translateY(8px);
+    }
+
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-slogan .bb-prelude {
+       
+        margin-left: 0px;
+        width: 70px;
+        height: 52px;
+    }
+    #bb-banner.bb-campaign-vs-green-banner .bb-core .bb-button-wrapper {
+        display: none;
+    }
+}

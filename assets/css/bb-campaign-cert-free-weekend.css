@@ -1,0 +1,222 @@
+/* Mastering Pinia Vue.js nation */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+#bb-banner.bb-campaign-cert-free-weekend {
+    background: #1E1E20;
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-cert-free-weekend:hover .bb-core .bb-button-wrapper .bb-button {
+    background: var(--primary-30, rgba(66, 184, 131, 0.90)); 
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-logo {
+    width: 43.333px;
+height: 44px; 
+background-image: url('https://certificates.dev/images/vuejs/vuejs-badge.svg');
+    position: relative;
+    margin-right: 60px;
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container {
+    order: 3;
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    order: 3;
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-prelude {
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+color: var(--White, var(--White, #FFF));
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;  
+}
+
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-prelude span {
+    background: var(--Gradient, linear-gradient(90deg, #42B883 1.04%, #0EBBD2 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container .bb-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--Gradient, linear-gradient(90deg, #42B883 1.04%, #0EBBD2 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;  
+white-space: nowrap;
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container .bb-subtitle {
+    color: var(--White, var(--White, #FFF));
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    white-space: nowrap;
+
+
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan {
+    gap: 40px;
+}
+
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-button-wrapper .bb-button {
+    border-radius: 50px;
+    border: 2px solid var(--Primery, #42B883);
+    background: var(--primary-30, rgba(66, 184, 131, 0.30)); 
+    display: flex;
+height: 44px;
+padding: 0px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;  
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 0px; 
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+border-radius: 4px;
+background: rgba(66, 184, 131, 0.20);
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.8px; 
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container  .bb-countdown-wrapper  .bb-countdown-footer {
+    color: var(--White, var(--White, #FFF));
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+
+#bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+
+@media screen and (max-width: 1234px) {
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+        gap: 0px
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-prelude, 
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container .bb-title, 
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container .bb-subtitle,
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-addendum {
+        font-size: 13px;
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-logo {
+        margin-right: 30px;
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        display: flex;
+        padding: 0px;
+        color: var(--White, var(--White, #FFF));
+    background: transparent;
+    font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    #bb-banner.bb-campaign-cert-free-weekend .bb-logo, #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-prelude, 
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container .bb-title, 
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-slogan .bb-title-container .bb-subtitle,
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-addendum,
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper .bb-countdown {
+        font-size: 11px;
+    }
+
+    #bb-banner.bb-campaign-cert-free-weekend .bb-core .bb-countdown-container .bb-countdown-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        align-items: center
+    }
+
+}

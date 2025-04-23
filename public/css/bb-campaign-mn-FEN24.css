@@ -1,0 +1,195 @@
+/* mn */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+
+#bb-banner.bb-campaign-mn-FEN24 {
+    background: #01191F; 
+    font-family: 'Inter', sans-serif;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-side-image {
+    display: none;
+}
+#bb-banner.bb-campaign-mn-FEN24:hover .bb-core .bb-button-wrapper .bb-button {
+    background: white;
+    transition: background-color 0.5s, color 0.5s; 
+  }
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-logo {
+    width: 20.8px;
+    position: relative;
+height: 26px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-right: 30px;
+    
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core {
+    gap: 40px;
+
+}
+
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-slogan .bb-prelude {
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+width: auto;
+white-space: nowrap;
+text-align: left;
+margin-right: 20px;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-slogan .bb-prelude span {
+    color: #2BF6A3;
+}
+
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-slogan .bb-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-title , #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-subtitle {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+
+ 
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-title b, #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-subtitle span {
+    color: #2BF6A3;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+ }
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-countdown-container .bb-addendum {
+    color: var(--White, #FFF);
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase; 
+}
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-countdown-container {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-countdown-container .bb-countdown {
+padding: 6px 14px;
+border-radius: 4px;
+background: rgba(43, 246, 163, 0.20);
+color: white;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-button-wrapper .bb-button {
+    display: flex;
+height: 40px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px; 
+font-size: 14px;
+font-weight: 500;
+border-radius: 50px;
+background: #2BF6A3; 
+}
+
+@media screen and (max-width: 1440px) {
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-countdown-container {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width: 1234px) {
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-button-wrapper {
+    display: none;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-slogan .bb-title-container {
+    flex-direction: column;
+    gap: 0px;
+}
+
+#bb-banner.bb-campaign-mn-FEN24 .bb-logo {
+    margin-right: 25px;
+}
+
+}
+@media screen and (max-width: 768px) {
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-button-wrapper {
+        display: none;
+    }
+
+
+    
+#bb-banner.bb-campaign-mn-FEN24 .bb-logo {
+    width: 20.8px;
+    position: absolute;
+height: 26px; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-right: 25px;
+    
+}
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-slogan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-slogan .bb-prelude {
+        font-size: 12px;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-title, #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-subtitle {
+    font-size: 12px;
+    }
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-countdown-container {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    #bb-banner.bb-campaign-mn-FEN24 .bb-core .bb-countdown-container .bb-countdown {
+        padding: 0px;
+        background: transparent;
+        }
+
+        #bb-banner.bb-campaign-mn-FEN24 .bb-core {
+            gap: 2px;
+        
+        }
+}

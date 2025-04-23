@@ -1,0 +1,82 @@
+/* Spring */
+
+#bb-banner.bb-campaign-spring {
+  background: linear-gradient(180deg, #5666BD 0%, #81DCE8 100%);
+}
+
+#bb-banner.bb-campaign-spring .bb-core .bb-countdown {
+  color: #FFF;
+}
+
+#bb-banner.bb-campaign-spring .bb-core .bb-button-wrapper {
+  display: none;
+}
+
+#bb-banner.bb-campaign-spring .bb-core .bb-button-wrapper .bb-button {
+  background: linear-gradient(360deg, #B671ED 7.97%, #E772CF 100%);
+  color: #FFF;
+  border-radius: 50px;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+#bb-banner.bb-campaign-spring:hover .bb-core .bb-button-wrapper .bb-button {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+#bb-banner.bb-campaign-spring .bb-core .bb-title {
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFFF11;
+  font-weight: bold;
+
+  background: linear-gradient(90deg, #FFFF11 0%, #9AFF5C 99.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#bb-banner.bb-campaign-spring .bb-core .bb-subtitle {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#bb-banner.bb-campaign-spring .bb-logo {
+  background-image: url("https://vueschool.io/images/mark-vueschool-original.svg");
+  width: 35px;
+  height: 35px;
+}
+
+@media (min-width: 768px) {
+  #bb-banner.bb-campaign-spring .bb-core .bb-button-wrapper {
+    display: block;
+  }
+
+  #bb-banner.bb-campaign-spring .bb-core .bb-title {
+    font-size: 18px;
+  }
+
+  #bb-banner.bb-campaign-spring .bb-core .bb-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #bb-banner.bb-campaign-spring .bb-core .bb-slogan {
+    width: 400px;
+  }
+
+  #bb-banner.bb-campaign-spring .bb-logo {
+    background-image: url("https://vueschool.io/images/logo-vueschool-original.svg");
+    width: 126px;
+    height: 40px;
+  }
+}
+
+html.has-bb-banner.bb-vueschool #bb-banner.bb-campaign-spring .bb-logo {
+  display: none;
+}
