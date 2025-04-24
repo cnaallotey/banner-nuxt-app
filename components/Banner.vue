@@ -1,4 +1,5 @@
 <script setup>
+const config = useRuntimeConfig()
 const props = defineProps({
   affiliate: String,
 });
@@ -30,12 +31,12 @@ watchEffect(async () => {
     
     // Generate background style variables if assets are available
     if (activeBanner && activeBanner.assets) {
-      const appRoot = "https://staging-banner.bitterbrains.com"; // Adjust this URL as needed
+      const assetRoot = "https://staging-banner.bitterbrains.com"; // Adjust this URL as needed
       
       backgroundStyles.value = ["mobile", "tablet", "desktop"]
         .map(
           (breakpoint) =>
-            `--bb-bg-${breakpoint}: url(${appRoot}/images/banners/assets/${activeBanner.assets}/bg-${breakpoint}.${
+            `--bb-bg-${breakpoint}: url(${assetRoot}/images/banners/assets/${activeBanner.assets}/bg-${breakpoint}.${
               activeBanner.assetsFormat || "png"
             })`
         )
@@ -46,10 +47,10 @@ watchEffect(async () => {
     
     // If banner has a cssUrl property, load that CSS
     if (activeBanner && activeBanner.classes) {
-      loadCss(`http://localhost:3000/css/${activeBanner.classes[0]}.css`);
+      loadCss(`${config.appRoot}/css/${activeBanner.classes[0]}.css`);
     } else {
       // Fallback to a default CSS if needed
-      loadCss('http://localhost:3000/css/base.css');
+      loadCss(`${config.appRoot}/css/base.css`);
     }
     
     // Start the countdown when banner is loaded
