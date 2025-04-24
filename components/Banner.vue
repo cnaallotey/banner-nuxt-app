@@ -47,10 +47,11 @@ watchEffect(async () => {
     
     // If banner has a cssUrl property, load that CSS
     if (activeBanner && activeBanner.classes) {
-      loadCss(`${config.appRoot}/css/${activeBanner.classes[0]}.css`);
+        console.log(config.public.appRoot)
+      loadCss(`${config.public.appRoot}/css/${activeBanner.classes[0]}.css`);
     } else {
       // Fallback to a default CSS if needed
-      loadCss(`${config.appRoot}/css/base.css`);
+      loadCss(`${config.public.appRoot}/css/base.css`);
     }
     
     // Start the countdown when banner is loaded
